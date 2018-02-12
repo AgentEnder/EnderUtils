@@ -18,9 +18,7 @@ end
 
 function testingMainState.Draw()
 	love.graphics.setBackgroundColor(80,80,80)
-	endercam:set()
 	enderents:draw()
-	endercam:unset()
 end
 
 function testingMainState.KeyPressed(key, scancode, isrepeat)
